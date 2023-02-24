@@ -10,4 +10,10 @@ function findAverage(array) {
   }
 }
 
-console.log(findAverage([1,2,3,4]))
+// console.log(findAverage([1,2,3,4]))
+
+// More simplified:
+
+// const findAverage = (array) => {  
+//   return array.length === 0 ? 0 : array.reduce((sum, current)=> sum + current, 0) /array.length
+// }
