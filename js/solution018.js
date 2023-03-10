@@ -5,5 +5,4 @@ Example:
 
 None of the arrays will be empty, so you don't have to worry about that! */
 
-
-
+const removeEveryOther = arr => arr.filter((x,i) => i % 2 == 0 )
